@@ -1,0 +1,55 @@
+body {
+	font: 10px "Noto Sans SC", sans-serif;	
+	margin: 0;
+    background-color: #ffe5ff;
+    background-image: linear-gradient(145deg, #ffe5ff, 5%, #f3bCb8 30%, 90%, #DDD6F3);
+}
+
+header {
+    padding: 1em;
+    width: max-content;
+    color: #668;
+    margin-left: 2em;
+}
+
+header h1 {
+    font-size: 5em;
+    font-weight: 900;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    text-align: right;
+    margin-right: 0.7em;
+}
+
+main {
+    width: 75%;
+    font-weight: 100;
+    font-size: 1.6em;
+    margin: 2em 2em 0 auto;
+}
+
+#the_link {
+    text-align: center;
+    font: 500 1em "Roboto Mono", monospace;
+}
+
+#review {
+    color: #333;
+}
+
+aside {
+    width: max-content;
+    margin: 2em 1em 0 auto;
+    font-size: 0.75em;
+}
+
+aside ul {
+    list-style-type: none
+}
+
+@me/*dia screen and (max-width: 768px) {
+    
+}*/
